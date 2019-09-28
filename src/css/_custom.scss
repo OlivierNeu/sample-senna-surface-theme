@@ -1,0 +1,47 @@
+/*This file allows you to override default styles in one central location for easier upgrade and maintenance.*/
+
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+
+html {
+  body {
+    #wrapper {
+
+      .portlet-column {
+        padding-right: 0;
+        padding-left: 0;
+      }
+
+      .isolation-bootstrap-3 {
+        &.d2-0 {
+
+          .group-buttons {
+            .btn {
+              margin-left: 5px;
+              margin-right: 5px;
+            }
+          }
+
+          .team-color-1 {
+            padding: 5px;
+            border-style: dashed;
+            border-width: 5px;
+            border-color: transparent;
+          }
+
+          &.sample-senna-angular-parcours-bundle, &.sample-senna-angular-app1-bundle, &.sample-senna-angular-app2-bundle, &.sample-senna-angular-app3-bundle {
+            padding: 5px;
+            border-style: dashed;
+            border-width: 5px;
+            border-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
