@@ -3,9 +3,10 @@ import utils from 'senna/src/utils/utils';
 class SampleSPASurface {
     constructor() {
 
-        Liferay.Loader.require('frontend-js-spa-web@2.0.15/liferay/surface/Surface.es', function (frontendJsSpaWeb2017LiferaySurface) {
+        // Dépendant du bundle OSGI com.liferay.frontend.js.spa.web
+        Liferay.Loader.require('frontend-js-spa-web@3.0.14/liferay/surface/Surface.es', function (frontendJsSpaWeb3014LiferaySurface) {
 
-                var LiferaySurface = frontendJsSpaWeb2017LiferaySurface.default;
+                var LiferaySurface = frontendJsSpaWeb3014LiferaySurface.default;
 
                 if (Liferay.SPA.debugEnabled) {
                     console.log(Liferay.SPA.app);

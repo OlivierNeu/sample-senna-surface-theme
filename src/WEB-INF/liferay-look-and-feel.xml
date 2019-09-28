@@ -3,9 +3,19 @@
 
 <look-and-feel>
 	<compatibility>
-		<version>7.1.0+</version>
+		<version>7.2.0+</version>
 	</compatibility>
 	<theme id="sample-senna-surface" name="sample-senna-surface">
 		<template-extension>ftl</template-extension>
+		<portlet-decorator id="barebone" name="Barebone">
+			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
+		</portlet-decorator>
+		<portlet-decorator id="borderless" name="Borderless">
+			<portlet-decorator-css-class>portlet-borderless</portlet-decorator-css-class>
+		</portlet-decorator>
+		<portlet-decorator id="decorate" name="Decorate">
+			<default-portlet-decorator>true</default-portlet-decorator>
+			<portlet-decorator-css-class>portlet-decorate</portlet-decorator-css-class>
+		</portlet-decorator>
 	</theme>
 </look-and-feel>
