@@ -103,6 +103,10 @@ body {
   }
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//    Application des styles de mise en forme des différent bundle utilisé pour le symposium 2019    //
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
 html {
   body {
     #wrapper {
@@ -110,6 +114,21 @@ html {
       .portlet-column {
         padding-right: 0;
         padding-left: 0;
+      }
+
+      .sample-npm {
+        .portlet-content {
+          padding: 10px;
+        }
+      }
+
+      .sample-senna-angular-parcours-bundle {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .sample-senna-angular-app1-bundle {
+
       }
 
       .isolation-bootstrap-3 {
