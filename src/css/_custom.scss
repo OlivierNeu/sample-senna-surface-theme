@@ -127,33 +127,13 @@ html {
         margin-bottom: 50px;
       }
 
-      .sample-senna-angular-app1-bundle {
-
+      .loader-hide {
+        display: none;
       }
 
-      .isolation-bootstrap-3 {
-        &.d2-0 {
-
-          .group-buttons {
-            .btn {
-              margin-left: 5px;
-              margin-right: 5px;
-            }
-          }
-
-          .team-color-1 {
-            padding: 5px;
-            border-style: dashed;
-            border-width: 5px;
-            border-color: transparent;
-          }
-
-          &.sample-senna-angular-parcours-bundle, &.sample-senna-angular-app1-bundle, &.sample-senna-angular-app2-bundle, &.sample-senna-angular-app3-bundle {
-            padding: 5px;
-            border-style: dashed;
-            border-width: 5px;
-            border-color: transparent;
-          }
+      .load-widget {
+        .loader-hide {
+          display: block;
         }
       }
     }
