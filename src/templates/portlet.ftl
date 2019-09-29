@@ -6,7 +6,6 @@ portlet_display_name = htmlUtil.escape(portlet_display.getPortletDisplayName())
 portlet_display_root_portlet_id = htmlUtil.escapeAttribute(portlet_display.getRootPortletId())
 portlet_id = htmlUtil.escapeAttribute(portlet_display.getId())
 portlet_title = htmlUtil.escape(portlet_display.getTitle())
-portlet_decorate = portlet_display.isPortletDecorate() && portlet_display.getPortletDecoratorId() != "fwd-barebone-n3-ux-d2-0"
 />
 
 <section class="portlet">
