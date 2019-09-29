@@ -3,3 +3,4 @@
 <#assign fwd_show_bottom = getterUtil.getBoolean(themeDisplay.getThemeSetting("fwd-show-bottom")) />
 <#assign fwd_show_bottom_sitemap = getterUtil.getBoolean(themeDisplay.getThemeSetting("fwd-show-bottom-sitemap")) />
 <#assign fwd_show_bottom_webcontent = getterUtil.getBoolean(themeDisplay.getThemeSetting("fwd-show-bottom-webcontent")) />
+<#assign fwd_show_logo = getterUtil.getBoolean(themeDisplay.getThemeSetting("fwd-show-logo")) />

@@ -48,9 +48,11 @@
 
     <header class="container-fluid-1280" id="banner" role="banner">
         <div class="fwd-wrapper-heading" id="heading">
+            <#if fwd_show_logo>
             <a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
                 <img alt="${logo_description}" height="64" src="${site_logo}"/>
             </a>
+            </#if>
         </div>
 
         <div class="fwd-wrapper-navbar">

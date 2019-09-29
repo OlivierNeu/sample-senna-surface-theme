@@ -13,6 +13,7 @@
 			<setting configurable="true" key="fwd-show-bottom" type="checkbox" value="false" />
 			<setting configurable="true" key="fwd-show-bottom-sitemap" type="checkbox" value="false" />
 			<setting configurable="true" key="fwd-show-bottom-webcontent" type="checkbox" value="false" />
+			<setting configurable="true" key="fwd-show-logo" type="checkbox" value="false" />
 		</settings>
 		<portlet-decorator id="barebone" name="Barebone">
 			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
