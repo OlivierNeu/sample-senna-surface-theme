@@ -13,22 +13,7 @@ portlet_decorate = portlet_display.isPortletDecorate() && portlet_display.getPor
     <div class="loader-container">
         <div class="loader loader-inline loader-hide" tabindex="-1" aria-live="polite" role="status" aria-labelledby="loaderInlineLabel">
             <span class="sr-only" id="loaderInlineLabel">Chargement en cours.</span>
-            <div class="icone-loader" aria-hidden="true">
-                <svg class="n3-spinner" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                    <rect x="19" width="2" height="12" fill="#040204"/>
-                    <rect x="12" y="2" width="2" height="12" fill="#040204" transform="rotate(-29.99 13 8)"/>
-                    <rect x="7" y="7" width="2" height="12" fill="#040204" transform="rotate(-59.982 8 13)"/>
-                    <rect y="19" width="12" height="2" fill="#040204"/>
-                    <rect x="7" y="21" width="2" height="12" fill="#040204" transform="rotate(-120.01 8 27)"/>
-                    <rect x="12" y="26" width="2" height="12" fill="#040204" transform="rotate(-150.01 13 32)"/>
-                    <rect x="19" y="28" width="2" height="12" fill="#040204"/>
-                    <rect x="26" y="26" width="2" height="12" fill="#040204" transform="rotate(-30.01 27 32.002)"/>
-                    <rect x="31" y="21" width="2" height="12" fill="#040204" transform="rotate(-60.015 31.998 27)"/>
-                    <rect x="28" y="19" width="12" height="2" fill="#040204"/>
-                    <rect x="31" y="7" width="2" fill="#040204" height="12" transform="rotate(-120 32 13)"/>
-                    <rect x="26" y="2" width="2" height="12" fill="#040204" transform="rotate(-150.01 27 8)"/>
-                </svg>
-            </div>
+            <span aria-hidden="true" class="loading-animation"></span>
         </div>
     </div>
 	<#if portlet_display.isPortletDecorate() && !portlet_display.isStateMax() && portlet_display.getPortletConfigurationIconMenu()?? && portlet_display.getPortletToolbar()??>
