@@ -17,8 +17,8 @@
 	],
 	"liferayTheme": {
 		"baseTheme": "styled",
+		"fontAwesome": true,
 		"screenshot": "",
-		"rubySass": false,
 		"templateLanguage": "ftl",
 		"version": "7.2",
 		"hookModules": [
