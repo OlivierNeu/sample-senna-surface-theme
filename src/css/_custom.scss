@@ -10,7 +10,6 @@
 @import "portlet/portlet";
 @import "portlet/portlet_decorators";
 @import "portlet/portlet_hello_world";
-
 /* inject:imports */
 @import url("https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css");
 /* endinject */
@@ -123,9 +122,61 @@ html {
         }
       }
 
+      .portlet {
+        .portlet-content-editable {
+          border-width: 2px;
+        }
+      }
+
       .sample-senna-angular-parcours-bundle {
         margin-top: 50px;
         margin-bottom: 50px;
+
+        .portlet {
+          &:hover {
+            > .portlet-content-editable {
+              border-color: $bundle-team-1-color;
+              border-style: dashed;
+            }
+          }
+        }
+      }
+
+      .sample-senna-angular-app1-bundle {
+        .portlet {
+          &:hover {
+            > .portlet-content-editable {
+              border-style: dashed;
+            }
+          }
+        }
+      }
+
+      .sample-senna-angular-app2-bundle, .sample-senna-angular-app3-bundle {
+        .portlet {
+          &:hover {
+            > .portlet-content-editable {
+              border-color: $bundle-team-3-color;
+              border-style: dashed;
+            }
+          }
+        }
+      }
+
+      .sheet-footer {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+      }
+
+      .btn-group-bundle1 {
+        padding: 10px;
+        border-width: 2px;
+        border-color: transparent;
+        border-style: dashed;
+
+        &:hover {
+          border-color: $bundle-team-1-color;
+        }
       }
 
       .loader-hide {
