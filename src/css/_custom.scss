@@ -10,8 +10,10 @@
 @import "portlet/portlet";
 @import "portlet/portlet_decorators";
 @import "portlet/portlet_hello_world";
+
+//@import url("https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css");
+
 /* inject:imports */
-@import url("https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css");
 /* endinject */
 
 body {
